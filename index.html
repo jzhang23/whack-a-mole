@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Whack-A-Mole</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <p>Whack-a-Mole!</p>
+  <h3>Time Left: <span id="timeleft"></span></h3>
+  <h3>Score: <span id="score">0</span></h3>
+  <h3>Misses: <span id="missCount">0</span></h3>
+  <h3>High Score: <span id="highScore">0</span></h3>
+  <div>
+    <button class="gameCtrl" id="stopGame" onclick="stopGame()" disabled>Stop Game</button>
+    <button class="gameCtrl" id="startGame" onclick="startGame()">Start Game</button>
+    <button class="gameCtrl" onclick="resetGame()">Reset Game</button>
+  </div>
+  <script type="text/javascript" src="main.js"></script>
+</html>
