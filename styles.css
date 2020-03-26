@@ -26,11 +26,11 @@ p {
 }
 
 button {
- background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
- background-color:#86c00c;
+ background:linear-gradient(to bottom, #77b55a 5%, #86c00c 100%);
+ background-color:#6e980c;
 
  border-radius:11px;
- border:1px solid #c0bf0c;
+ border:1px solid #86c00c;
  display:inline-block;
 
  cursor:pointer;
@@ -40,13 +40,13 @@ button {
  font-size:13px;
  font-weight:400;
 
-	padding:6px 17px;
-	text-decoration:none
+ padding:6px 17px;
+ text-decoration:none
 }
 
 button:hover {
  background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
-	background-color: #98970c
+background-color: #98970c
 }
 
 .mole {
