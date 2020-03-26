@@ -11,6 +11,6 @@ This game is WCAG 2.1 AA color compliant.
 
 Use tabs to switch in between the three buttons (Stop, Start, Reset) and hit enter to select the button you're on.
 
-Implemented aria labels that can be read out by assistive technologies.
+Includes aria labels that can be read out by assistive technologies.
 
 
