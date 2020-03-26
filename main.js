@@ -8,7 +8,7 @@ const WHACK_DELAY = {min: 500, max: 1500}
 // Min and max time for mole to stay unwhackable
 const HIDE_DELAY = {min: 2000, max: 4000}
 // Length of a game in seconds
-const GAME_LENGTH = 20
+const GAME_LENGTH = 30
 
 // ----------
 // GAME STATE
